@@ -4,6 +4,7 @@ import Footer from "./footer";
 import Note from "./note";
 import Notes from "./notes";
 
+
 function card(pr) {
   return <Note key={pr.key} title={pr.title} content={pr.content} />;
 }
